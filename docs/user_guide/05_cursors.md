@@ -181,10 +181,10 @@ begin
 end;
 ```
 
-After the loop, D either empty because there were no rows (thus `if D` would fail)
+After the loop, D is either empty because there were no rows (thus `if D` would fail)
 or else it has the row with the maximum value of `something`, whatever that is.
 
-Value cursors are always have their own storage, so you could say all value cursors
+Value cursors always have their own storage, so you could say all value cursors
 are "automatic".
 
 And as we saw above, value cursors may or may not be holding a row.
